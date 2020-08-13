@@ -1,0 +1,30 @@
+Assignment 1 Report
+
+Name: Riya Kothari
+
+1. Performance on the development data with 100% of the training data
+1a. spam precision: 99.28
+1b. spam recall: 97.77
+1c. spam F1 score: 98.52
+1d. ham precision: 94.73
+1e. ham recall: 98.27
+1f. ham F1 score: 96.47
+
+2. Performance on the development data with 10% of the training data
+2a. spam precision: 98.94
+2b. spam recall: 81.14
+2c. spam F1 score: 89.32
+2d. ham precision: 68.24
+2e. ham recall: 97.87
+2f. ham F1 score: 80.41
+
+3. Description of enhancement(s) you tried (e.g., different approach(es) to smoothing, treating common words differently, dealing with unknown words differently):
+I tried removing common Words from consideration, like 'a', 'the'. These words were not considered during the bag of words nbmodel creation. It registered some improvement over the pervious model for spam precision and recall, but a good improvement for ham precision and f1_score.
+
+4. Best performance results based on enhancements. Note that these could be the same or worse than the standard implementation.
+4a. spam precision: 99.42
+4b. spam recall: 98.28
+4c. spam F1 score: 98.85
+4d. ham precision: 95.91
+4e. ham recall: 98.6
+4f. ham F1 score: 97.24
